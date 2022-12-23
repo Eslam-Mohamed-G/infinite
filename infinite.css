@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.2em;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+h2{padding: 0px; margin: 0px;}
+a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #D40;
+}
+ul{list-style: none;}
+li{float: left; right: 0px;}
+
+.navbar{
+    display: flex; 
+    padding-top: 10px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.navbar-brand:hover{color: #38B}
+
+.navbar-collapse{
+    margin-left: 500px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.nav-link:hover{background-color: #38B;}
+
+.parallax{
+    background-image: url(img/infinite-loop-01.jpg);
+    visibility: visible;
+    z-index: -100;
+    overflow: hidden;
+    height: 1150px;
+    width: 1519px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: transparent;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #333;
+    text-align: center;
+}
+.down-arrow{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #357;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.down-arrow:hover{
+    background-color: #38B;
+    padding: 20px 50px; 
+    transition: all 0.3s ease;
+}
+
+.parallax2{
+    background-image: url();
+    padding: 100px 100px 100px 165px;
+    font-weight: normal;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1-title{
+    color: #37A; 
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+
+.parallax2-contaner2{display: flex; margin-top: 100px; }
+
+.graid{
+    display: flex;
+    width: 600px;
+    margin-right: 50px;
+    color: #37A;
+}
+.intro-text{
+    margin-left: 40px;
+    color: #707070;
+}
+.graid-title{color: #37A;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.tm-continue{
+    background-color: #37A;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.tm-continue:hover{
+    background-color: #38B;
+}
+.tm-continue-a{
+    color: white;
+}
+
+.parallax3{
+    background-image: url(img/infinite-loop-02.jpg);
+    padding: 100px 100px 100px 165px;
+    color: white;
+    text-align: center;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax3-header, .parallax4-header{
+    width: 800px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    font-size: 0.86em;
+    line-height: 1.8em;
+}
+.parallax3-title, .parallax4-title{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+
+.parallax4-title{color: #37A;}
+
+.parallax3-contaner3{
+    display: flex;
+    font-size: 0.86em;
+    line-height: 1.8em;
+}
+.radius-img{
+    border-radius: 50%; 
+    width: 150px;
+    margin-left: 25px;
+}
+.tstimonials{
+    width: 500px;
+}
+.nick-name{
+    float: right;
+    margin-top: 30px;
+    text-align: right;
+    font-style: italic;
+}
+
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.4s ease;
+}
+
+.dot:hover{background-color: white;}
+
+.parallax4{
+    padding: 100px 100px 0px 165px;
+    color: #707070;
+    text-align: center;
+    height: 1159px;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-grid{display: flex;}
+
+.grid{
+    margin-right: 50px;
+    position: relative;
+    background: #4a3753;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+img{height: 100%; width: 100%;}
+.grid:hover img{
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+    opacity: 0.3;
+}
+.grid-text::before {
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #38C;
+    content: "";
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+.grid-text{
+    padding-top: 270px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    /* left: 25px; */
+    color: white;
+    text-align: justify;
+    font-size: larger;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+.grid-text:hover{
+    opacity: 1;
+}
+
+
+.grid-text-span1{
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    /* font-weight: bolder;
+    font-size: 1.9rem; */
+    text-transform: uppercase;
+    word-spacing: -0.15em;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding-right: 50px;
+}
+.grid-text-span2{
+    font-style: normal;
+    font-weight: bolder;
+    padding-right: 50px;
+    word-spacing: -0.15em;
+}
+
+/* .gallery-grid{display: flex; position: relative;}
+figure.effect-honey {
+    background: #4a3753;
+    max-width: 220px;
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.gallery-h2{opacity: 0; transition: .5s ease;}
+a:hover .gallery-h2{opacity: 1;}
+a:hover .effect-honey{opacity: .5; background: #4a3753;} */
